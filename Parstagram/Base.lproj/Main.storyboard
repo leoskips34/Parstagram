@@ -128,20 +128,23 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="420" id="gY7-S7-AyI" customClass="PostCell" customModule="Parstagram" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="420"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="431" id="gY7-S7-AyI" customClass="PostCell" customModule="Parstagram" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="431"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gY7-S7-AyI" id="Hpp-dx-s7g">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="420"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="431"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Leo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXR-ft-6lB">
                                                     <rect key="frame" x="20" y="370" width="52" height="39"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="52" id="Tzg-rG-6Ok"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Hb-2R-pJv" customClass="Post">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Hb-2R-pJv" customClass="Post">
                                                     <rect key="frame" x="11" y="12" width="392" height="350"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="392" id="76Y-OM-2qN"/>
@@ -160,13 +163,13 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="4Hb-2R-pJv" firstAttribute="centerX" secondItem="Hpp-dx-s7g" secondAttribute="centerX" id="3IL-l5-4Ww"/>
-                                                <constraint firstItem="wXR-ft-6lB" firstAttribute="top" secondItem="Hpp-dx-s7g" secondAttribute="top" constant="370" id="VzP-qe-rnU"/>
-                                                <constraint firstItem="EZQ-zi-HFP" firstAttribute="leading" secondItem="wXR-ft-6lB" secondAttribute="trailing" constant="24" id="aOP-FA-VEX"/>
-                                                <constraint firstItem="wXR-ft-6lB" firstAttribute="top" secondItem="4Hb-2R-pJv" secondAttribute="bottom" constant="8" symbolic="YES" id="bNK-mb-vMC"/>
-                                                <constraint firstItem="wXR-ft-6lB" firstAttribute="leading" secondItem="Hpp-dx-s7g" secondAttribute="leadingMargin" constant="8" id="gjx-2O-bKD"/>
-                                                <constraint firstItem="EZQ-zi-HFP" firstAttribute="firstBaseline" secondItem="wXR-ft-6lB" secondAttribute="firstBaseline" id="iXw-dX-SBg"/>
+                                                <constraint firstItem="wXR-ft-6lB" firstAttribute="top" secondItem="4Hb-2R-pJv" secondAttribute="bottom" constant="8" id="4Bv-su-Mkv"/>
+                                                <constraint firstItem="wXR-ft-6lB" firstAttribute="baseline" secondItem="EZQ-zi-HFP" secondAttribute="baseline" id="D18-wH-E8i"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="wXR-ft-6lB" secondAttribute="bottom" constant="11" id="j69-2z-riF"/>
+                                                <constraint firstItem="wXR-ft-6lB" firstAttribute="leading" secondItem="Hpp-dx-s7g" secondAttribute="leadingMargin" id="lNG-Oa-WaC"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="EZQ-zi-HFP" secondAttribute="trailing" constant="-9" id="mjK-lA-NT4"/>
                                                 <constraint firstItem="4Hb-2R-pJv" firstAttribute="top" secondItem="Hpp-dx-s7g" secondAttribute="topMargin" constant="1" id="th9-41-cje"/>
+                                                <constraint firstItem="wXR-ft-6lB" firstAttribute="firstBaseline" secondItem="EZQ-zi-HFP" secondAttribute="firstBaseline" id="yfd-gy-zR4"/>
                                                 <constraint firstItem="EZQ-zi-HFP" firstAttribute="trailing" secondItem="4Hb-2R-pJv" secondAttribute="trailing" id="zzF-eQ-DjL"/>
                                             </constraints>
                                         </tableViewCellContentView>

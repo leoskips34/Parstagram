@@ -132,16 +132,16 @@
 		B387045223FB3C3A00044C73 /* Parstagram */ = {
 			isa = PBXGroup;
 			children = (
+				B387046123FB3C3C00044C73 /* Info.plist */,
+				B387045923FB3C3A00044C73 /* Main.storyboard */,
 				B33E53B623FB8DAB00AC1489 /* LoginViewController.swift */,
 				B33E53B423FB8DA900AC1489 /* FeedViewController.swift */,
 				B387045323FB3C3A00044C73 /* AppDelegate.swift */,
 				B387045523FB3C3A00044C73 /* SceneDelegate.swift */,
-				B387045923FB3C3A00044C73 /* Main.storyboard */,
 				B33E53BA23FBA09C00AC1489 /* PostCell.swift */,
 				B33E53B823FB95D100AC1489 /* CameraViewController.swift */,
 				B387045C23FB3C3C00044C73 /* Assets.xcassets */,
 				B387045E23FB3C3C00044C73 /* LaunchScreen.storyboard */,
-				B387046123FB3C3C00044C73 /* Info.plist */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";

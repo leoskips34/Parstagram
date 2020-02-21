@@ -10,7 +10,7 @@ import UIKit
 import AlamofireImage
 import Parse
 
-class CameraViewController: UIViewController, UIImagePickerControllerDelegate {
+class CameraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,8 +41,8 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate {
         }
     
     @IBAction func onCameraButton(_ sender: Any) {
-    let picker = UIImagePickerController()
-        picker.delegate = self as? UIImagePickerControllerDelegate & UINavigationControllerDelegate
+        let picker = UIImagePickerController()
+        picker.delegate = self
         picker.allowsEditing = true
         
         if UIImagePickerController.isSourceTypeAvailable(.camera){
