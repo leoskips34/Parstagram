@@ -76,7 +76,7 @@
                                     <constraint firstAttribute="height" constant="34" id="ymX-8C-osA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" textContentType="password"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -160,6 +160,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="4Hb-2R-pJv" firstAttribute="centerX" secondItem="Hpp-dx-s7g" secondAttribute="centerX" id="3IL-l5-4Ww"/>
+                                                <constraint firstItem="wXR-ft-6lB" firstAttribute="top" secondItem="Hpp-dx-s7g" secondAttribute="top" constant="370" id="VzP-qe-rnU"/>
                                                 <constraint firstItem="EZQ-zi-HFP" firstAttribute="leading" secondItem="wXR-ft-6lB" secondAttribute="trailing" constant="24" id="aOP-FA-VEX"/>
                                                 <constraint firstItem="wXR-ft-6lB" firstAttribute="top" secondItem="4Hb-2R-pJv" secondAttribute="bottom" constant="8" symbolic="YES" id="bNK-mb-vMC"/>
                                                 <constraint firstItem="wXR-ft-6lB" firstAttribute="leading" secondItem="Hpp-dx-s7g" secondAttribute="leadingMargin" constant="8" id="gjx-2O-bKD"/>

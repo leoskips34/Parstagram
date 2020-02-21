@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Parse.initialize(
             with: ParseClientConfiguration(block: { (configuration: ParseMutableClientConfiguration) -> Void in
                 configuration.applicationId = "myAppId"
-                configuration.server = "https://whispering-bastion-24130.herokuapp.com/parse"
+                configuration.server = "https://quiet-anchorage-16524.herokuapp.com/parse"
             })
         )
         return true
