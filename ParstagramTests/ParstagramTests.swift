@@ -2,8 +2,8 @@
 //  ParstagramTests.swift
 //  ParstagramTests
 //
-//  Created by Leo Samuelson on 2/17/20.
-//  Copyright © 2020 NDNU. All rights reserved.
+//  Created by Praveen V on 2/9/20.
+//  Copyright © 2020 Praveen Vandeyar. All rights reserved.
 //
 
 import XCTest
