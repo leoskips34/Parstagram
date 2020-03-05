@@ -22,9 +22,9 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://gyazo.com/66b2726785f49d1474db783f341fec58' width='250' />
+<img src='https://i.gyazo.com/66b2726785f49d1474db783f341fec58.gif' width='250' />
 
-<img src='https://gyazo.com/d0145c3d4f25bd9140ebed2e4cce74d3' width='250' />
+<img src='https://i.gyazo.com/d0145c3d4f25bd9140ebed2e4cce74d3.gif' width='250' />
 
 
 # Parstagram - Part I
