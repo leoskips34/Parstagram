@@ -2,7 +2,7 @@
 //  FeedViewController.swift
 //  Parstagram
 //
-//  Created by Praveen V on 2/9/20.
+//  Created by Leo Samuelson on 2/9/20.
 //  Copyright © 2020 Praveen Vandeyar. All rights reserved.
 //
 
