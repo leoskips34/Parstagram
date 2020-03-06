@@ -4,7 +4,7 @@
 //  Parstagram
 //
 //  Created by Leo Samuelson on 2/17/20.
-//  Copyright © 2020 NDNU. All rights reserved.
+//  Copyright © 2020 Leo Samuelson. All rights reserved.
 //
 
 import UIKit
