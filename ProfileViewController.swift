@@ -2,8 +2,8 @@
 //  ProfileViewController.swift
 //  Parstagram
 //
-//  Created by Praveen V on 2/20/20.
-//  Copyright © 2020 Praveen Vandeyar. All rights reserved.
+//  Created by Leo Samuelson on 2/20/20.
+//  Copyright © 2020 Leo Samuelson. All rights reserved.
 //
 
 import UIKit
