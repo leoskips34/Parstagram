@@ -3,7 +3,7 @@
 //  Parstagram
 //
 //  Created by Leo Samuelson on 2/9/20.
-//  Copyright © 2020 Praveen Vandeyar. All rights reserved.
+//  Copyright © 2020 Leo Samuelson. All rights reserved.
 //
 
 import UIKit
